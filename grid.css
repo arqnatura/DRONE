@@ -1,0 +1,68 @@
+[class^="col-"]{
+
+	float:left;
+	text-align: justify;
+	font-size:1.6rem;
+
+	}
+
+[class^="col-"]:not(:last-child){
+	margin-right: 6rem;
+	
+}
+
+.row {
+
+
+}
+
+.row .col-1-of-2 {
+	width: calc((100% - 12rem) / 2);
+	font-size:1.5rem;
+	text-align:right;
+}
+
+.row .col-1-of-3 {
+	width: calc((100% - 2 * 10.6rem)/5);
+	text-align: left;
+		margin-left: 20vh;
+			line-height: 1.5;
+	font-size:1.7rem;
+}
+.row2 .col-1-of-3 {
+	width: calc((100% - 2 * 28rem)/3);
+	text-align: left;
+	padding-left:10rem;
+			line-height: 2;
+	font-size:1.5rem;
+}
+
+.row .col-2-of-3 {
+	width: calc(2 * ((100% - 2 * 8.5rem) / 6) + 12rem);
+	text-align: left;
+			line-height: 1.5;
+	font-size:1.7rem;
+			
+}
+
+.row .col-1-of-4 {
+	width: calc((100% - 3 * 10rem)/4);
+	font-size:1.5rem;
+	color: #3a7999;
+			line-height: 1.5;
+	padding:1.5rem;
+}
+
+
+.row .col-2-of-4 {
+	width: calc(2 * ((100% - 3 * 8rem) / 4) + 6rem);
+	padding:1.5rem;
+}
+
+.row .col-3-of-4 {
+	width: calc(3 * ((100% - 3 * 7.4rem) / 4) + 2*6rem);
+	padding:1.5rem;
+}
+
+
+
